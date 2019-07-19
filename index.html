@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-07-03 Wed 12:06 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>collector1871 homepage</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">collector1871 homepage</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orge2e84d9">1. Public activity</a></li>
+<li><a href="#orgd2d51c9">2. My environment</a></li>
+<li><a href="#orga9553da">3. code</a>
+<ul>
+<li><a href="#org6709f01">3.1. closed source</a></li>
+<li><a href="#org9fdeed9">3.2. open source</a></li>
+<li><a href="#orgf9d6247">3.3. historical, archived</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+Welcome into my (personal) homepage. In this place you can find my projects and activities. This page is "mobile friendly": constructed in Responsive Web Design (RWD). You will not find here advertisments, cookies or web trackers. This page has been created/generated via <a href="https://www.gnu.org/software/emacs/">emacs</a> and <a href="https://orgmode.org/">org mode</a>.<br />
+</p>
+
+<div id="outline-container-orge2e84d9" class="outline-2">
+<h2 id="orge2e84d9"><span class="section-number-2">1</span> Public activity</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+You can find me here:<br />
+</p>
+
+<ul class="org-ul">
+<li><a href="https://github.com/collector1871">GitHub</a><br /></li>
+<li><a href="https://github.com/collector1871?tab=repositories">GitHub repositories</a><br /></li>
+<li><a href="https://stackoverflow.com/users/5330756/collector1871">StackOverflow</a><br /></li>
+<li><a href="https://bbs.archlinux.org/profile.php?id=105673">Linux Arch Forum</a><br /></li>
+<li><a href="https://aur.archlinux.org/packages/?K=collector1871&amp;SeB=m">Arch packages</a><br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd2d51c9" class="outline-2">
+<h2 id="orgd2d51c9"><span class="section-number-2">2</span> My environment</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li>OS: <a href="https://www.archlinux.org/">Linux Arch</a> (since middle of 2016), <a href="https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux">RHEL</a> &amp; <a href="https://www.centos.org">CentOS</a>, Linux since ~2010, <a href="https://wiki.debian.org/DebianStable">Debian Stable</a>, sometimes Windows 7/8/10<br /></li>
+<li>Desktop: <a href="https://wiki.archlinux.org/index.php/Xfce">Xfce4</a> since many years, in free time I am checking <a href="https://kde.org/plasma-desktop">KDE plasma</a> (but not using it for serious tasks)<br /></li>
+<li>Hardware: one of <a href="https://en.wikipedia.org/wiki/ThinkPad_X_series">Thinkpad X series</a> (mobile and small, but also with <a href="https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking">docking station</a>)<br /></li>
+<li>Editors: <a href="https://www.gnu.org/software/emacs/">emacs</a> with <a href="https://emacs.zeef.com/ehartc">bunch of plugins</a>, <a href="https://github.com/syl20bnr/spacemacs/tree/develop">spacemacs develop branch</a>, (pure) <a href="https://www.vim.org/">vim</a> without plugins<br /></li>
+<li>IDE: <a href="https://www.jetbrains.com/idea/">Intellij Idea</a>, <a href="https://developer.android.com/studio">Android Studio</a>, <a href="https://netbeans.org/">NetBeans</a><br /></li>
+<li>Scripts &amp; programming: <a href="https://perldoc.perl.org/">perl5</a>, <a href="https://docs.python.org/3/">python3</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">java</a> &amp; <a href="https://developer.android.com/">Android SDK</a>, <a href="https://en.wikipedia.org/wiki/Emacs_Lisp">elisp</a><br /></li>
+<li>Shells: <a href="https://tiswww.case.edu/php/chet/bash/bashref.html">bash</a>, <a href="http://www.zsh.org/">zsh</a> with <a href="https://ohmyz.sh/">oh-my-zsh</a><br /></li>
+<li>Microcomputer: <a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a> with <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Lite</a><br /></li>
+<li>File managers: <a href="http://ignorantguru.github.io/spacefm/">SpaceFM</a>, emacs with <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html">dired</a>, <a href="https://midnight-commander.org/">mc</a><br /></li>
+<li>Keyboard: <a href="https://mechboards.co.uk/qpad-mk-50-review/">QPAD MK-50</a> with <a href="https://deskthority.net/wiki/Cherry_MX_Red">Cherry MX red</a><br /></li>
+<li>Browsers: <a href="https://www.mozilla.org/en-US/firefox/new/">firefox</a>, <a href="https://www.chromium.org/">chromium</a>, <a href="https://en.wikipedia.org/wiki/Eww_(web_browser)">eww</a>, <a href="https://brave.com/">Brave browser</a>, <a href="https://www.seleniumhq.org/">selenium</a><br /></li>
+<li>Media player (video and music): <a href="https://www.videolan.org/index.html">vlc</a><br /></li>
+<li>Email client: <a href="https://www.thunderbird.net/en-GB/">thunderbird</a> since ~2006, <a href="https://www.seamonkey-project.org/">SeaMonkey Mail</a> since 2018<br /></li>
+<li>Data, databases: <a href="https://en.wikipedia.org/wiki/PL/SQL">PL/SQL</a>, <a href="https://www.sqlite.org/index.html">SQLite</a>, <a href="https://en.wikipedia.org/wiki/Comma-separated_values">csv</a>, <a href="https://en.wikipedia.org/wiki/XML">xml</a> with <a href="https://en.wikipedia.org/wiki/XML_Schema_(W3C)">schema</a>, pure <a href="https://en.wikipedia.org/wiki/SQL">SQL</a><br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga9553da" class="outline-2">
+<h2 id="orga9553da"><span class="section-number-2">3</span> code</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org6709f01" class="outline-3">
+<h3 id="org6709f01"><span class="section-number-3">3.1</span> closed source</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Since few years I am focusing on python3 and Perl5 scripts. Also from second half of 2018 I am writing java REST app (client). Perl5 is quite similar with PHP, but I am not interested in PHP anymore. I have experience with web scraping, selenium automation (I am using: Perl5 module <a href="https://metacpan.org/pod/Selenium::Remote::Driver">Selenium::Remote::Driver</a> which is very stable and without major bugs). I am also working with data conversion: parsing JSON files, csv&lt;&gt;sql, SQL queries &amp; databases, txt files, and xml. I am also focusing on counting, comparing data, HTTP requests (RESTful api). Currently I am not learning Perl5 anymore (but I like use it for Selenium and regex). In my free time I am learning java/android and sometimes classical front-end (JS, HTML, CSS).<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9fdeed9" class="outline-3">
+<h3 id="org9fdeed9"><span class="section-number-3">3.2</span> open source</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+<a href="https://github.com/collector1871/allsi-login">allsi-login</a> / <b>perl5, python3, PHP</b><br />
+Easy login for allegro.pl via REST api<br />
+</p>
+
+<p>
+<a href="https://github.com/collector1871/AngErQuiz">AndErQuiz</a> / <b>JS, HTML, jQuery-mobile</b><br />
+Angielski quiz językowy<br />
+</p>
+
+<p>
+<a href="https://github.com/collector1871/jpg2pdf">jpg2pdf</a> / <b>PHP, ajax, jQuery</b><br />
+This simple app is converting image files (jpg, png) to a single PDF file<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf9d6247" class="outline-3">
+<h3 id="orgf9d6247"><span class="section-number-3">3.3</span> historical, archived</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+<a href="https://github.com/collector1871/Kolko-i-Krzyzyk">Kolko-i-Krzyzyk</a> / <b>C</b><br />
+KiK w wersji tekstowej - wielkość 3x3<br />
+</p>
+
+<p>
+<a href="https://github.com/collector1871/mate-matrix">mate-matrix</a> / <b>C/C++</b><br />
+Dodawanie macierzy 5x5, szukanie liczby pierwszej<br />
+</p>
+
+<p>
+<a href="https://github.com/collector1871/Delimgconv">Delcampe images downloader and converter</a> / <b>python3</b><br />
+Download jpg files from delcampe.net (old site)<br />
+</p>
+
+<p>
+<a href="https://github.com/collector1871/delimgconv2">delimgconv2</a> / <b>PHP, linux</b><br />
+The same as above, but with PHP. This script was also used for downloading images (*.jpg) from delcampe<br />
+</p>
+
+<p>
+<a href="https://github.com/collector1871/resp-php">resp-php</a> / <b>PHP, MySQL, Bootstrap, JS, jQuery-mobile, HTML</b><br />
+W aplikacji zaprezentowano możliwości PHP oraz Bootstrapa wraz z jQuery-mobile<br />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2019-07-03 Wed 12:06</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

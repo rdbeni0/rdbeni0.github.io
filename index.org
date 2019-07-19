@@ -1,0 +1,67 @@
+#+SETUPFILE: ./styles/theme-readtheorg.setup
+#+TITLE: collector1871 homepage
+#+OPTIONS: *:t
+#+OPTIONS: \n:t
+#+OPTIONS: ^:nil
+
+Welcome into my (personal) homepage. In this place you can find my projects and activities. This page is "mobile friendly": constructed in Responsive Web Design (RWD). You will not find here advertisments, cookies or web trackers. This page has been created/generated via [[https://www.gnu.org/software/emacs/][emacs]] and [[https://orgmode.org/][org mode]].
+
+* Public activity
+
+You can find me here:
+
+- [[https://github.com/collector1871][GitHub]]
+- [[https://github.com/collector1871?tab=repositories][GitHub repositories]]
+- [[https://stackoverflow.com/users/5330756/collector1871][StackOverflow]]
+- [[https://bbs.archlinux.org/profile.php?id=105673][Linux Arch Forum]]
+- [[https://aur.archlinux.org/packages/?K=collector1871&SeB=m][Arch packages]]
+
+* My environment
+
+- OS: [[https://www.archlinux.org/][Linux Arch]] (since middle of 2016), [[https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux][RHEL]] & [[https://www.centos.org][CentOS]], Linux since ~2010, [[https://wiki.debian.org/DebianStable][Debian Stable]], sometimes Windows 7/8/10
+- Desktop: [[https://wiki.archlinux.org/index.php/Xfce][Xfce4]] since many years, in free time I am checking [[https://kde.org/plasma-desktop][KDE plasma]] (but not using it for serious tasks)
+- Hardware: one of [[https://en.wikipedia.org/wiki/ThinkPad_X_series][Thinkpad X series]] (mobile and small, but also with [[https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking][docking station]])
+- Editors: [[https://www.gnu.org/software/emacs/][emacs]] with [[https://emacs.zeef.com/ehartc][bunch of plugins]], [[https://github.com/syl20bnr/spacemacs/tree/develop][spacemacs develop branch]], (pure) [[https://www.vim.org/][vim]] without plugins
+- IDE: [[https://www.jetbrains.com/idea/][Intellij Idea]], [[https://developer.android.com/studio][Android Studio]], [[https://netbeans.org/][NetBeans]]
+- Scripts & programming: [[https://perldoc.perl.org/][perl5]], [[https://docs.python.org/3/][python3]], [[https://en.wikipedia.org/wiki/Java_(programming_language)][java]] & [[https://developer.android.com/][Android SDK]], [[https://en.wikipedia.org/wiki/Emacs_Lisp][elisp]]
+- Shells: [[https://tiswww.case.edu/php/chet/bash/bashref.html][bash]], [[http://www.zsh.org/][zsh]] with [[https://ohmyz.sh/][oh-my-zsh]]
+- Microcomputer: [[https://en.wikipedia.org/wiki/Raspberry_Pi][Raspberry Pi]] with [[https://www.raspberrypi.org/downloads/raspbian/][Raspbian Lite]]
+- File managers: [[http://ignorantguru.github.io/spacefm/][SpaceFM]], emacs with [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html][dired]], [[https://midnight-commander.org/][mc]]
+- Keyboard: [[https://mechboards.co.uk/qpad-mk-50-review/][QPAD MK-50]] with [[https://deskthority.net/wiki/Cherry_MX_Red][Cherry MX red]]
+- Browsers: [[https://www.mozilla.org/en-US/firefox/new/][firefox]], [[https://www.chromium.org/][chromium]], [[https://en.wikipedia.org/wiki/Eww_(web_browser)][eww]], [[https://brave.com/][Brave browser]], [[https://www.seleniumhq.org/][selenium]]
+- Media player (video and music): [[https://www.videolan.org/index.html][vlc]]
+- Email client: [[https://www.thunderbird.net/en-GB/][thunderbird]] since ~2006, [[https://www.seamonkey-project.org/][SeaMonkey Mail]] since 2018
+- Data, databases: [[https://en.wikipedia.org/wiki/PL/SQL][PL/SQL]], [[https://www.sqlite.org/index.html][SQLite]], [[https://en.wikipedia.org/wiki/Comma-separated_values][csv]], [[https://en.wikipedia.org/wiki/XML][xml]] with [[https://en.wikipedia.org/wiki/XML_Schema_(W3C)][schema]], pure [[https://en.wikipedia.org/wiki/SQL][SQL]]
+
+* code
+** closed source
+
+Since few years I am focusing on python3 and Perl5 scripts. Also from second half of 2018 I am writing java REST app (client). Perl5 is quite similar with PHP, but I am not interested in PHP anymore. I have experience with web scraping, selenium automation (I am using: Perl5 module [[https://metacpan.org/pod/Selenium::Remote::Driver][Selenium::Remote::Driver]] which is very stable and without major bugs). I am also working with data conversion: parsing JSON files, csv<>sql, SQL queries & databases, txt files, and xml. I am also focusing on counting, comparing data, HTTP requests (RESTful api). Currently I am not learning Perl5 anymore (but I like use it for Selenium and regex). In my free time I am learning java/android and sometimes classical front-end (JS, HTML, CSS).
+
+** open source
+
+[[https://github.com/collector1871/allsi-login][allsi-login]] / *perl5, python3, PHP*
+Easy login for allegro.pl via REST api
+
+[[https://github.com/collector1871/AngErQuiz][AndErQuiz]] / *JS, HTML, jQuery-mobile*
+Angielski quiz językowy
+
+[[https://github.com/collector1871/jpg2pdf][jpg2pdf]] / *PHP, ajax, jQuery*
+This simple app is converting image files (jpg, png) to a single PDF file
+ 
+** historical, archived
+
+[[https://github.com/collector1871/Kolko-i-Krzyzyk][Kolko-i-Krzyzyk]] / *C*
+KiK w wersji tekstowej - wielkość 3x3
+
+[[https://github.com/collector1871/mate-matrix][mate-matrix]] / *C/C++*
+Dodawanie macierzy 5x5, szukanie liczby pierwszej
+
+[[https://github.com/collector1871/Delimgconv][Delcampe images downloader and converter]] / *python3*
+Download jpg files from delcampe.net (old site)
+
+[[https://github.com/collector1871/delimgconv2][delimgconv2]] / *PHP, linux*
+The same as above, but with PHP. This script was also used for downloading images (*.jpg) from delcampe
+
+[[https://github.com/collector1871/resp-php][resp-php]] / *PHP, MySQL, Bootstrap, JS, jQuery-mobile, HTML*
+W aplikacji zaprezentowano możliwości PHP oraz Bootstrapa wraz z jQuery-mobile

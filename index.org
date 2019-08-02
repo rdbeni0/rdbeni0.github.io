@@ -38,7 +38,7 @@ You can find me here:
 * code
 ** closed source
 
-Since few years I am focusing on python3 and Perl5 scripts. Also from second half of 2018 I am writing java REST app (client). Perl5 is quite similar with PHP, but I am not interested in PHP anymore. I have experience with web scraping, selenium automation (I am using: Perl5 module [[https://metacpan.org/pod/Selenium::Remote::Driver][Selenium::Remote::Driver]] which is very stable and without major bugs). I am also working with data conversion: parsing JSON files, csv<>sql, SQL queries & databases, txt files, and xml. I am also focusing on counting, comparing data, HTTP/WebService requests (RESTful api, SOAP). Currently I am not learning Perl5 core anymore, but I would like to master some part of it (Selenium and regex). In my free time I am learning java/android and sometimes classical front-end (JS, HTML, CSS).
+Since few years I am focusing on python3 and Perl5 scripts. Also from second half of 2018 I am writing java REST app (client). Perl5 is quite similar with PHP, but I am not interested in PHP anymore. I have experience with web scraping, selenium automation (I am using: Perl5 module [[https://metacpan.org/pod/Selenium::Remote::Driver][Selenium::Remote::Driver]] which is very stable and without major bugs). I am also working with data conversion: parsing JSON files, csv<>sql, SQL queries & databases, txt files, and xml. I am also focusing on counting, comparing data, HTTP/WebService requests (RESTful api, SOAP). Currently I am not learning Perl5 core anymore, but still I would like to master some part of it (Selenium and regex). In my free time I am learning java/android and sometimes classical front-end (JS, HTML, CSS).
 
 ** open source
 

@@ -42,6 +42,9 @@ Since few years I am focusing on python3 and Perl5 scripts. Also from second hal
 
 ** open source
 
+[[https://github.com/collector1871/c1871s][c1871s]] / *org, elisp*
+spacemacs conf
+
 [[https://github.com/collector1871/allsi-login][allsi-login]] / *perl5, python3, PHP*
 Easy login for allegro.pl via REST api
 

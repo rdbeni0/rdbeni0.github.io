@@ -20,10 +20,10 @@ You can find me here:
 * My environment
 
 - OS: [[https://www.archlinux.org/][Linux Arch]] (since middle of 2016), [[https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux][RHEL]] & [[https://www.centos.org][CentOS]], Linux since ~2010, [[https://wiki.debian.org/DebianStable][Debian Stable]], sometimes Windows 7/8/10
-- Desktop: [[https://wiki.archlinux.org/index.php/Xfce][Xfce4]] since many years, in free time I am checking [[https://kde.org/plasma-desktop][KDE plasma]] (but not using it for serious tasks)
+- Desktop: [[https://wiki.archlinux.org/index.php/Xfce][Xfce4]] since many years
 - Hardware: one of [[https://en.wikipedia.org/wiki/ThinkPad_X_series][Thinkpad X series]] (mobile and small, but also with [[https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking][docking station]])
 - Editors: [[https://www.gnu.org/software/emacs/][emacs]] with [[https://emacs.zeef.com/ehartc][bunch of plugins]], [[https://github.com/collector1871/c1871s][spacemacs develop branch]], (pure) [[https://www.vim.org/][vim]] without plugins
-- IDE: [[https://www.jetbrains.com/idea/][Intellij Idea]], [[https://developer.android.com/studio][Android Studio]], [[https://netbeans.org/][NetBeans]]
+- IDE: [[https://www.jetbrains.com/idea/][Intellij Idea]], [[https://developer.android.com/studio][Android Studio]]
 - Scripts & programming: [[https://perldoc.perl.org/][perl5]], [[https://docs.python.org/3/][python3]], [[https://en.wikipedia.org/wiki/Java_(programming_language)][java]] & [[https://developer.android.com/][Android SDK]], [[https://en.wikipedia.org/wiki/Emacs_Lisp][elisp]]
 - Shells: [[https://tiswww.case.edu/php/chet/bash/bashref.html][bash]], [[http://www.zsh.org/][zsh]] with [[https://ohmyz.sh/][oh-my-zsh]]
 - Microcomputer: [[https://en.wikipedia.org/wiki/Raspberry_Pi][Raspberry Pi]] with [[https://www.raspberrypi.org/downloads/raspbian/][Raspbian Lite]]
@@ -31,7 +31,7 @@ You can find me here:
 - Keyboard: [[https://mechboards.co.uk/qpad-mk-50-review/][QPAD MK-50]] with [[https://deskthority.net/wiki/Cherry_MX_Red][Cherry MX red]]
 - Browsers: [[https://www.mozilla.org/en-US/firefox/new/][firefox]], [[https://www.chromium.org/][chromium]], [[https://en.wikipedia.org/wiki/Eww_(web_browser)][eww]], [[https://brave.com/][Brave browser]], [[https://www.seleniumhq.org/][selenium]]
 - Media player (video and music): [[https://www.videolan.org/index.html][vlc]]
-- Email client: [[https://www.thunderbird.net/en-GB/][thunderbird]] since ~2006, but I am slowly converting to emacs ([[https://www.djcbsoftware.nl/code/mu/mu4e.html][mu4e]])
+- Email client: [[https://www.thunderbird.net/en-GB/][thunderbird]] since ~2006, but I am slowly converting to emacs ([[https:/www.emacswiki.org/emacs/CategoryGnus][gnus]])
 - IRC: [[https://www.emacswiki.org/emacs?ERC][ERC]] 
 - Data, databases: [[https://en.wikipedia.org/wiki/PL/SQL][PL/SQL]], [[https://www.sqlite.org/index.html][SQLite]], [[https://en.wikipedia.org/wiki/Comma-separated_values][csv]], [[https://en.wikipedia.org/wiki/XML][xml]] with [[https://en.wikipedia.org/wiki/XML_Schema_(W3C)][schema]], pure [[https://en.wikipedia.org/wiki/SQL][SQL]]
 

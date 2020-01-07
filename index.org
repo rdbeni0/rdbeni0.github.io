@@ -42,7 +42,7 @@ Since few years I am focusing on python3 and Perl5 scripts. Also from second hal
 
 ** open source
 
-[[https://github.com/rdbeni0/c1871s][c1871s]] / *org, elisp*
+[[https://github.com/rdbeni0/rdb0s][rdb0s]] / *org, elisp*
 spacemacs conf
 
 [[https://github.com/rdbeni0/allsi-login][allsi-login]] / *perl5, python3, PHP*

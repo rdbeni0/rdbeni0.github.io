@@ -1,5 +1,5 @@
 #+SETUPFILE: ./styles/theme-readtheorg.setup
-#+TITLE: collector1871 homepage
+#+TITLE: rdbeni0 homepage
 #+OPTIONS: *:t
 #+OPTIONS: \n:t
 #+OPTIONS: ^:nil
@@ -10,19 +10,19 @@ Welcome into my (personal) homepage. In this place you can find my projects and 
 
 You can find me here:
 
-- [[https://github.com/collector1871][GitHub]]
-- [[https://github.com/collector1871?tab=repositories][GitHub repositories]]
-- [[https://stackoverflow.com/users/5330756/collector1871][StackOverflow]]
+- [[https://github.com/rdbeni0][GitHub]]
+- [[https://github.com/rdbeni0?tab=repositories][GitHub repositories]]
+- [[https://stackoverflow.com/users/5330756/rdbeni0][StackOverflow]]
 - [[https://bbs.archlinux.org/profile.php?id=105673][Linux Arch Forum]]
-- [[https://aur.archlinux.org/packages/?K=collector1871&SeB=m][Arch packages]]
-- IRC: freenode/collector1871
+- [[https://aur.archlinux.org/packages/?K=rdbeni0&SeB=m][Arch packages]]
+- IRC: freenode/rdbeni0
 
 * My environment
 
 - OS: [[https://www.archlinux.org/][Linux Arch]] (since middle of 2016), [[https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux][RHEL]] & [[https://www.centos.org][CentOS]], Linux since ~2010, [[https://wiki.debian.org/DebianStable][Debian Stable]], sometimes Windows 7/8/10
 - Desktop: [[https://wiki.archlinux.org/index.php/Xfce][Xfce4]] since many years
 - Hardware: one of [[https://en.wikipedia.org/wiki/ThinkPad_X_series][Thinkpad X series]] (mobile and small, but also with [[https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking][docking station]])
-- Editors: [[https://www.gnu.org/software/emacs/][emacs]] with [[https://emacs.zeef.com/ehartc][bunch of plugins]], [[https://github.com/collector1871/c1871s][spacemacs develop branch]], (pure) [[https://www.vim.org/][vim]] without plugins
+- Editors: [[https://www.gnu.org/software/emacs/][emacs]] with [[https://emacs.zeef.com/ehartc][bunch of plugins]], [[https://github.com/rdbeni0/c1871s][spacemacs develop branch]], (pure) [[https://www.vim.org/][vim]] without plugins
 - IDE: [[https://www.jetbrains.com/idea/][Intellij Idea]], [[https://developer.android.com/studio][Android Studio]]
 - Scripts & programming: [[https://perldoc.perl.org/][perl5]], [[https://docs.python.org/3/][python3]], [[https://en.wikipedia.org/wiki/Java_(programming_language)][java]] & [[https://developer.android.com/][Android SDK]], [[https://en.wikipedia.org/wiki/Emacs_Lisp][elisp]]
 - Shells: [[https://tiswww.case.edu/php/chet/bash/bashref.html][bash]], [[http://www.zsh.org/][zsh]] with [[https://ohmyz.sh/][oh-my-zsh]]
@@ -42,31 +42,31 @@ Since few years I am focusing on python3 and Perl5 scripts. Also from second hal
 
 ** open source
 
-[[https://github.com/collector1871/c1871s][c1871s]] / *org, elisp*
+[[https://github.com/rdbeni0/c1871s][c1871s]] / *org, elisp*
 spacemacs conf
 
-[[https://github.com/collector1871/allsi-login][allsi-login]] / *perl5, python3, PHP*
+[[https://github.com/rdbeni0/allsi-login][allsi-login]] / *perl5, python3, PHP*
 Easy login for allegro.pl via REST api
 
-[[https://github.com/collector1871/AngErQuiz][AndErQuiz]] / *JS, HTML, jQuery-mobile*
+[[https://github.com/rdbeni0/AngErQuiz][AndErQuiz]] / *JS, HTML, jQuery-mobile*
 Angielski quiz językowy
 
-[[https://github.com/collector1871/jpg2pdf][jpg2pdf]] / *PHP, ajax, jQuery*
+[[https://github.com/rdbeni0/jpg2pdf][jpg2pdf]] / *PHP, ajax, jQuery*
 This simple app is converting image files (jpg, png) to a single PDF file
  
 ** historical, archived
 
-[[https://github.com/collector1871/Kolko-i-Krzyzyk][Kolko-i-Krzyzyk]] / *C*
+[[https://github.com/rdbeni0/Kolko-i-Krzyzyk][Kolko-i-Krzyzyk]] / *C*
 KiK w wersji tekstowej - wielkość 3x3
 
-[[https://github.com/collector1871/mate-matrix][mate-matrix]] / *C/C++*
+[[https://github.com/rdbeni0/mate-matrix][mate-matrix]] / *C/C++*
 Dodawanie macierzy 5x5, szukanie liczby pierwszej
 
-[[https://github.com/collector1871/Delimgconv][Delcampe images downloader and converter]] / *python3*
+[[https://github.com/rdbeni0/Delimgconv][Delcampe images downloader and converter]] / *python3*
 Download jpg files from delcampe.net (old site)
 
-[[https://github.com/collector1871/delimgconv2][delimgconv2]] / *PHP, linux*
+[[https://github.com/rdbeni0/delimgconv2][delimgconv2]] / *PHP, linux*
 The same as above, but with PHP. This script was also used for downloading images (*.jpg) from delcampe
 
-[[https://github.com/collector1871/resp-php][resp-php]] / *PHP, MySQL, Bootstrap, JS, jQuery-mobile, HTML*
+[[https://github.com/rdbeni0/resp-php][resp-php]] / *PHP, MySQL, Bootstrap, JS, jQuery-mobile, HTML*
 W aplikacji zaprezentowano możliwości PHP oraz Bootstrapa wraz z jQuery-mobile

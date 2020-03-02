@@ -17,7 +17,7 @@ You can find me here:
 - [[https://aur.archlinux.org/packages/?K=rdbeni0&SeB=m][Arch packages]]
 - IRC: freenode/rdbeni0
 
-* My environment
+* My tech environment
 
 - OS: [[https://www.archlinux.org/][Arch Linux]] (since middle of 2016), [[https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux][RHEL]] & [[https://www.centos.org][CentOS]], Linux since ~2010, [[https://wiki.debian.org/DebianStable][Debian Stable]], sometimes Windows 7/8/10
 - Desktop: [[https://wiki.archlinux.org/index.php/Xfce][Xfce4]] since many years

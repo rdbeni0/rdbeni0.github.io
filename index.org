@@ -13,7 +13,7 @@ You can find me here:
 - [[https://github.com/rdbeni0][GitHub]]
 - [[https://github.com/rdbeni0?tab=repositories][GitHub repositories]]
 - [[https://stackoverflow.com/users/5330756/rdbeni0][StackOverflow]]
-- [[https://bbs.archlinux.org/profile.php?id=125736][Linux Arch Forum]]
+- [[https://bbs.archlinux.org/profile.php?id=125736][Arch Linux Forum]]
 - [[https://aur.archlinux.org/packages/?K=rdbeni0&SeB=m][Arch packages]]
 - IRC: freenode/rdbeni0
 

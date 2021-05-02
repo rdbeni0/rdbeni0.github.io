@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-03-19 Thu 23:07 -->
+<!-- 2021-05-02 Sun 22:51 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>rdbeni0 homepage</title>
@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -51,7 +51,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -160,6 +160,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -186,50 +199,26 @@
 <script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -239,13 +228,13 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org0ca57a8">1. Public activity</a></li>
-<li><a href="#orgebe6ab0">2. My tech environment</a></li>
-<li><a href="#orged4426f">3. code</a>
+<li><a href="#org09c6934">1. Public activity</a></li>
+<li><a href="#org610179e">2. My tech environment</a></li>
+<li><a href="#org845d29f">3. code</a>
 <ul>
-<li><a href="#org38fae84">3.1. closed source</a></li>
-<li><a href="#org94883cc">3.2. open source</a></li>
-<li><a href="#org3d0ed12">3.3. historical, archived</a></li>
+<li><a href="#org79bb0f6">3.1. closed source</a></li>
+<li><a href="#org25d0d3d">3.2. open source</a></li>
+<li><a href="#org9d449e8">3.3. historical, archived</a></li>
 </ul>
 </li>
 </ul>
@@ -255,8 +244,8 @@ for the JavaScript code in this tag.
 Welcome into my (personal) homepage. In this place you can find my projects and activities. This page is "mobile friendly": constructed in Responsive Web Design (RWD). You will not find here advertisments, cookies or web trackers. This page has been created/generated via <a href="https://www.gnu.org/software/emacs/">emacs</a> and <a href="https://orgmode.org/">org mode</a>.<br />
 </p>
 
-<div id="outline-container-org0ca57a8" class="outline-2">
-<h2 id="org0ca57a8"><span class="section-number-2">1</span> Public activity</h2>
+<div id="outline-container-org09c6934" class="outline-2">
+<h2 id="org09c6934"><span class="section-number-2">1</span> Public activity</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 You can find me here:<br />
@@ -273,20 +262,20 @@ You can find me here:<br />
 </div>
 </div>
 
-<div id="outline-container-orgebe6ab0" class="outline-2">
-<h2 id="orgebe6ab0"><span class="section-number-2">2</span> My tech environment</h2>
+<div id="outline-container-org610179e" class="outline-2">
+<h2 id="org610179e"><span class="section-number-2">2</span> My tech environment</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
-<li>OS: <a href="https://www.archlinux.org/">Arch Linux</a> (since middle of 2016), <a href="https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux">RHEL</a> &amp; <a href="https://www.centos.org">CentOS</a>, Linux since ~2010, <a href="https://wiki.debian.org/DebianStable">Debian Stable</a>, sometimes Windows 7/8/10<br /></li>
-<li>Desktop: <a href="https://wiki.archlinux.org/index.php/Xfce">Xfce4</a> since many years<br /></li>
-<li>Hardware: one of <a href="https://en.wikipedia.org/wiki/ThinkPad_X_series">Thinkpad X series</a> (mobile and small, but also with <a href="https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking">docking station</a>)<br /></li>
+<li>OS: <a href="https://www.archlinux.org/">Arch Linux</a> (since middle of 2016), <a href="https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux">RHEL</a> &amp; <a href="https://www.centos.org">CentOS</a>, Linux since ~2010, <a href="https://wiki.debian.org/DebianStable">Debian Stable</a>, <a href="https://kubuntu.org/">Kubuntu LTS</a>, sometimes Windows 7/8/10<br /></li>
+<li>Desktop: <a href="https://wiki.archlinux.org/index.php/Xfce">Xfce4</a> since many years, <a href="https://kde.org/">KDE</a> via Kubuntu<br /></li>
+<li>Hardware: one of <a href="https://en.wikipedia.org/wiki/ThinkPad_X_series">Thinkpad X series</a> (mobile and small, but also with <a href="https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking">docking station</a>), <a href="https://en.wikipedia.org/wiki/ThinkPad_T_series">ThinkPad T series</a><br /></li>
 <li>Editors: <a href="https://www.gnu.org/software/emacs/">emacs</a> with <a href="https://emacs.zeef.com/ehartc">bunch of plugins</a>, (pure) <a href="https://www.vim.org/">vim</a> without plugins<br /></li>
-<li>IDE: <a href="https://www.jetbrains.com/idea/">Intellij Idea</a>, <a href="https://developer.android.com/studio">Android Studio</a><br /></li>
+<li>IDE: <a href="https://www.jetbrains.com/pycharm/">PyCharm</a>, <a href="https://www.jetbrains.com/idea/">Intellij Idea</a>, <a href="https://developer.android.com/studio">Android Studio</a><br /></li>
 <li>Scripts &amp; programming: <a href="https://perldoc.perl.org/">perl5</a>, <a href="https://docs.python.org/3/">python3</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">java</a> &amp; <a href="https://developer.android.com/">Android SDK</a>, <a href="https://en.wikipedia.org/wiki/Emacs_Lisp">elisp</a><br /></li>
 <li>Shells: <a href="https://tiswww.case.edu/php/chet/bash/bashref.html">bash</a>, <a href="http://www.zsh.org/">zsh</a> with <a href="https://ohmyz.sh/">oh-my-zsh</a><br /></li>
 <li>Microcomputer: <a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a> with <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Lite</a><br /></li>
-<li>File managers: <a href="http://ignorantguru.github.io/spacefm/">SpaceFM</a>, emacs with <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html">dired</a>, <a href="https://midnight-commander.org/">mc</a><br /></li>
-<li>Keyboard: <a href="https://mechboards.co.uk/qpad-mk-50-review/">QPAD MK-50</a> with <a href="https://deskthority.net/wiki/Cherry_MX_Red">Cherry MX red</a><br /></li>
+<li>File managers: <a href="http://ignorantguru.github.io/spacefm/">SpaceFM</a>, emacs with <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html">dired</a>, <a href="https://midnight-commander.org/">mc</a>, <a href="https://apps.kde.org/dolphin/">KDE Dolphin</a><br /></li>
+<li>Keyboard: QPAD MK-50 with <a href="https://deskthority.net/wiki/Cherry_MX_Red">Cherry MX red</a><br /></li>
 <li>Browsers: <a href="https://www.mozilla.org/en-US/firefox/new/">firefox</a>, <a href="https://www.chromium.org/">chromium</a>, <a href="https://en.wikipedia.org/wiki/Eww_(web_browser)">eww</a>, <a href="https://brave.com/">Brave browser</a>, <a href="https://www.seleniumhq.org/">selenium</a><br /></li>
 <li>Media player (video and music): <a href="https://www.videolan.org/index.html">vlc</a><br /></li>
 <li>Email client: <a href="https://www.thunderbird.net/en-GB/">thunderbird</a> since ~2006<br /></li>
@@ -296,12 +285,12 @@ You can find me here:<br />
 </div>
 </div>
 
-<div id="outline-container-orged4426f" class="outline-2">
-<h2 id="orged4426f"><span class="section-number-2">3</span> code</h2>
+<div id="outline-container-org845d29f" class="outline-2">
+<h2 id="org845d29f"><span class="section-number-2">3</span> code</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org38fae84" class="outline-3">
-<h3 id="org38fae84"><span class="section-number-3">3.1</span> closed source</h3>
+<div id="outline-container-org79bb0f6" class="outline-3">
+<h3 id="org79bb0f6"><span class="section-number-3">3.1</span> closed source</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 Since few years I am focusing on python3 and Perl5 scripts. Also from second half of 2018 I am writing java REST app (client). Perl5 is quite similar with PHP, but I am not interested in PHP anymore. I have experience with web scraping, selenium automation (I am using: Perl5 module <a href="https://metacpan.org/pod/Selenium::Remote::Driver">Selenium::Remote::Driver</a> which is very stable and without major bugs). I am also working with data conversion: parsing JSON files, csv&lt;&gt;sql, SQL queries &amp; databases, txt files, and xml. I am also focusing on counting, comparing data, HTTP/WebService requests (RESTful api, SOAP). Currently I am not learning Perl5 core anymore, but still I would like to master some part of it (Selenium and regex). In my free time I am learning java/android and sometimes classical front-end (JS, HTML, CSS).<br />
@@ -309,8 +298,8 @@ Since few years I am focusing on python3 and Perl5 scripts. Also from second hal
 </div>
 </div>
 
-<div id="outline-container-org94883cc" class="outline-3">
-<h3 id="org94883cc"><span class="section-number-3">3.2</span> open source</h3>
+<div id="outline-container-org25d0d3d" class="outline-3">
+<h3 id="org25d0d3d"><span class="section-number-3">3.2</span> open source</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 <a href="https://github.com/rdbeni0/allsi-login">allsi-login</a> / <b>perl5, python3, PHP</b><br />
@@ -329,8 +318,8 @@ This simple app is converting image files (jpg, png) to a single PDF file<br />
 </div>
 </div>
 
-<div id="outline-container-org3d0ed12" class="outline-3">
-<h3 id="org3d0ed12"><span class="section-number-3">3.3</span> historical, archived</h3>
+<div id="outline-container-org9d449e8" class="outline-3">
+<h3 id="org9d449e8"><span class="section-number-3">3.3</span> historical, archived</h3>
 <div class="outline-text-3" id="text-3-3">
 <p>
 <a href="https://github.com/rdbeni0/Kolko-i-Krzyzyk">Kolko-i-Krzyzyk</a> / <b>C</b><br />
@@ -361,8 +350,8 @@ W aplikacji zaprezentowano możliwości PHP oraz Bootstrapa wraz z jQuery-mobile
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2020-03-19 Thu 23:07</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2021-05-02 Sun 22:51</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>

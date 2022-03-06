@@ -31,8 +31,8 @@ You can find me here:
 - Keyboard: QPAD MK-50 with [[https://deskthority.net/wiki/Cherry_MX_Red][Cherry MX red]]
 - Browsers: [[https://www.mozilla.org/en-US/firefox/new/][firefox]], [[https://www.chromium.org/][chromium]], [[https://en.wikipedia.org/wiki/Eww_(web_browser)][eww]], [[https://brave.com/][Brave browser]], [[https://www.seleniumhq.org/][selenium]]
 - Media player (video and music): [[https://www.videolan.org/index.html][vlc]]
-- Email client: [[https://www.thunderbird.net/en-GB/][thunderbird]] since ~2006
-- IRC: [[https://www.emacswiki.org/emacs?ERC][ERC]] 
+- Email client: [[https://notmuchmail.org/][notmuch]] via emacs
+- IRC: [[https://www.emacswiki.org/emacs?ERC][ERC]] via emacs, pidgin
 - Data, databases: [[https://en.wikipedia.org/wiki/PL/SQL][PL/SQL]], [[https://www.sqlite.org/index.html][SQLite]], [[https://en.wikipedia.org/wiki/Comma-separated_values][csv]], [[https://en.wikipedia.org/wiki/XML][xml]] with [[https://en.wikipedia.org/wiki/XML_Schema_(W3C)][schema]], pure [[https://en.wikipedia.org/wiki/SQL][SQL]]
 
 * code

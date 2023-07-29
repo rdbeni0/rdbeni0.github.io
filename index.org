@@ -24,7 +24,7 @@ You can find me here:
 - Hardware: [[https://en.wikipedia.org/wiki/ThinkPad_T_series][ThinkPad T series]], one of [[https://en.wikipedia.org/wiki/ThinkPad_X_series][Thinkpad X series]] (mobile and small, but also with [[https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking][docking station]])
 - Editors: [[https://www.gnu.org/software/emacs/][emacs]] with [[https://emacs.zeef.com/ehartc][bunch of plugins]], (pure) [[https://www.vim.org/][vim]] without plugins
 - IDE: [[https://www.jetbrains.com/pycharm/][PyCharm]], [[https://www.jetbrains.com/idea/][Intellij Idea]], [[https://developer.android.com/studio][Android Studio]]
-- Scripts & programming: [[https://perldoc.perl.org/][perl5]], [[https://docs.python.org/3/][python3]], [[https://en.wikipedia.org/wiki/Java_(programming_language)][java]] & [[https://developer.android.com/][Android SDK]], [[https://www.php.net/][PHP]], [[https://en.wikipedia.org/wiki/Emacs_Lisp][elisp]]
+- Scripts & programming: [[https://docs.python.org/3/][python3]], [[https://en.wikipedia.org/wiki/Java_(programming_language)][java]] & [[https://developer.android.com/][Android SDK]], [[https://www.php.net/][PHP]], [[https://en.wikipedia.org/wiki/Emacs_Lisp][elisp]], [[https://perldoc.perl.org/][perl5]]
 - Shells: [[https://fishshell.com/][fish]], [[https://tiswww.case.edu/php/chet/bash/bashref.html][bash]]
 - Microcomputer: [[https://en.wikipedia.org/wiki/Raspberry_Pi][Raspberry Pi]]
 - File managers: [[https://docs.xfce.org/xfce/thunar/start][Thunar]], emacs with [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html][dired]], [[https://midnight-commander.org/][mc]], [[https://apps.kde.org/dolphin/][KDE Dolphin]]

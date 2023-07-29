@@ -44,7 +44,7 @@ Since few years I am focusing on python3 and shell/Perl5 scripts. Also from seco
 ** open source
 
 [[https://github.com/rdbeni0/urxvt_tmux][urxvt_tmux]] / *config files*
-urxvt+tmux configuration.
+urxvt+tmux configuration
 
 [[https://github.com/rdbeni0/emacs.d][emacs.d]] / *elisp*
 My personal .emacs.d config

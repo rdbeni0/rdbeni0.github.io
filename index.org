@@ -43,6 +43,9 @@ Since few years I am focusing on python3 and shell/Perl5 scripts. Also from seco
 
 ** open source
 
+[[https://github.com/rdbeni0/emacs.d][emacs.d]] / *elisp*
+My personal .emacs.d config
+
 [[https://github.com/rdbeni0/allsi-login][allsi-login]] / *perl5, python3, PHP*
 Easy login for allegro.pl via REST api
 

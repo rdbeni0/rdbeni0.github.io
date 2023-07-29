@@ -26,7 +26,7 @@ You can find me here:
 - IDE: [[https://www.jetbrains.com/pycharm/][PyCharm]], [[https://www.jetbrains.com/idea/][Intellij Idea]], [[https://developer.android.com/studio][Android Studio]]
 - Scripts & programming: [[https://perldoc.perl.org/][perl5]], [[https://docs.python.org/3/][python3]], [[https://en.wikipedia.org/wiki/Java_(programming_language)][java]] & [[https://developer.android.com/][Android SDK]], [[https://en.wikipedia.org/wiki/Emacs_Lisp][elisp]]
 - Shells: [[https://fishshell.com/][fish]], [[https://tiswww.case.edu/php/chet/bash/bashref.html][bash]]
-- Microcomputer: [[https://en.wikipedia.org/wiki/Raspberry_Pi][Raspberry Pi]] with [[https://www.raspberrypi.org/downloads/raspbian/][Raspbian Lite]]
+- Microcomputer: [[https://en.wikipedia.org/wiki/Raspberry_Pi][Raspberry Pi]]
 - File managers: [[https://docs.xfce.org/xfce/thunar/start][Thunar]], emacs with [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html][dired]], [[https://midnight-commander.org/][mc]], [[https://apps.kde.org/dolphin/][KDE Dolphin]]
 - Keyboard: QPAD MK-50 with [[https://deskthority.net/wiki/Cherry_MX_Red][Cherry MX red]]
 - Browsers: [[https://brave.com/][Brave Browser]], [[https://www.mozilla.org/en-US/firefox/new/][firefox]], [[https://www.chromium.org/][chromium]], [[https://en.wikipedia.org/wiki/Eww_(web_browser)][eww]], [[https://www.seleniumhq.org/][selenium]]

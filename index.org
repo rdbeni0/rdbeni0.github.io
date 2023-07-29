@@ -31,7 +31,7 @@ You can find me here:
 - File managers: [[https://docs.xfce.org/xfce/thunar/start][Thunar]], emacs with [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html][dired]], [[https://midnight-commander.org/][mc]], [[https://apps.kde.org/dolphin/][KDE Dolphin]]
 - Keyboard: QPAD MK-50 with [[https://deskthority.net/wiki/Cherry_MX_Red][Cherry MX red]]
 - Browsers: [[https://brave.com/][Brave Browser]], [[https://www.mozilla.org/en-US/firefox/new/][firefox]], [[https://www.chromium.org/][chromium]], [[https://en.wikipedia.org/wiki/Eww_(web_browser)][eww]], [[https://www.seleniumhq.org/][selenium]]
-- Media player (video and music): [[https://www.videolan.org/index.html][vlc]]
+- Media player (video and music): [[https://audacious-media-player.org/][audacious]], [[https://www.videolan.org/index.html][vlc]]
 - Email client: emacs with [[https://notmuchmail.org/][notmuch]] since 2022, [[https://www.thunderbird.net/en-GB/][thunderbird]]
 - IRC: [[https://www.emacswiki.org/emacs?ERC][ERC]] via emacs, [[https://www.pidgin.im/][pidgin]]
 - Data, databases: [[https://en.wikipedia.org/wiki/PL/SQL][PL/SQL]], [[https://www.sqlite.org/index.html][SQLite]], [[https://en.wikipedia.org/wiki/Comma-separated_values][csv]], [[https://en.wikipedia.org/wiki/XML][xml]] with [[https://en.wikipedia.org/wiki/XML_Schema_(W3C)][schema]], pure [[https://en.wikipedia.org/wiki/SQL][SQL]]

@@ -19,7 +19,7 @@ You can find me here:
 
 * My tech environment
 
-- OS: [[https://www.archlinux.org/][Arch Linux]] (since middle of 2016), [[https://neon.kde.org/download][KDE Neon User Edition]], [[https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux][RHEL]] & [[https://www.centos.org][CentOS]], Linux since ~2010, [[https://wiki.debian.org/DebianStable][Debian Stable]], [[https://kubuntu.org/][Kubuntu LTS]], sometimes Windows 7/8/10/11
+- OS: [[https://www.archlinux.org/][Arch Linux]] (since middle of 2016), [[https://neon.kde.org/download][KDE Neon User Edition]], [[https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux][RHEL]] & [[https://www.centos.org][CentOS]], Linux since ~2010, [[https://wiki.debian.org/DebianStable][Debian Stable]], [[https://kubuntu.org/][Kubuntu LTS]], Windows 7/8/10/11
 - Desktop: [[https://wiki.archlinux.org/index.php/Xfce][Xfce4]] since many years, [[https://kde.org/][KDE]] via KDE Neon and Arch Linux
 - Hardware: [[https://en.wikipedia.org/wiki/ThinkPad_T_series][ThinkPad T series]], one of [[https://en.wikipedia.org/wiki/ThinkPad_X_series][Thinkpad X series]] (mobile and small, but also with [[https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking][docking station]])
 - Editors: [[https://www.gnu.org/software/emacs/][emacs]] with [[https://emacs.zeef.com/ehartc][bunch of plugins]], (pure) [[https://www.vim.org/][vim]] without plugins

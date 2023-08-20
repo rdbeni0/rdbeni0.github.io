@@ -20,17 +20,17 @@ You can find me here:
 
 * My tech environment
 
-- OS: [[https://www.archlinux.org/][Arch Linux]] (since middle of 2016), [[https://neon.kde.org/download][KDE Neon User Edition]], [[https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux][RHEL]], Linux since ~2010, [[https://wiki.debian.org/DebianStable][Debian Stable]], [[https://kubuntu.org/][Kubuntu LTS]], Windows 7/8/10/11
+- OS: [[https://www.archlinux.org/][Arch Linux]] (since middle of 2016), [[https://neon.kde.org/download][KDE Neon User Edition]], [[https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux][RHEL]], Linux since ~2010, [[https://wiki.debian.org/DebianStable][Debian Stable]], [[https://kubuntu.org/][Kubuntu LTS]], [[https://www.whonix.org/][Whonix]], Windows 7/8/10/11
 - Desktop: [[https://kde.org/][KDE]]
 - Hardware: ThinkPads with [[https://www.lenovo.com/us/en/accessories-and-monitors/docking/c/docking][docking station]] - [[https://en.wikipedia.org/wiki/ThinkPad_T_series][ThinkPad T series]] and [[https://en.wikipedia.org/wiki/ThinkPad_X_series][Thinkpad X series]]
 - Editors: [[https://www.gnu.org/software/emacs/][emacs]] with [[https://emacs.zeef.com/ehartc][bunch of plugins]], (pure) [[https://www.vim.org/][vim]] without plugins
-- IDE: [[https://www.jetbrains.com/pycharm/][PyCharm]], [[https://www.jetbrains.com/idea/][Intellij Idea]], [[https://developer.android.com/studio][Android Studio]]
+- IDE: [[https://www.jetbrains.com/idea/][Intellij Idea]], [[https://developer.android.com/studio][Android Studio]], [[https://www.jetbrains.com/pycharm/][PyCharm]]
 - Scripts & programming: [[https://docs.python.org/3/][python3]], [[https://en.wikipedia.org/wiki/Java_(programming_language)][java]] & [[https://developer.android.com/][Android SDK]], [[https://www.php.net/][PHP]], [[https://en.wikipedia.org/wiki/Emacs_Lisp][elisp]], [[https://perldoc.perl.org/][perl5]]
 - Shells: [[https://fishshell.com/][fish]], [[https://tiswww.case.edu/php/chet/bash/bashref.html][bash]]
 - Microcomputer: [[https://en.wikipedia.org/wiki/Raspberry_Pi][Raspberry Pi]]
 - File managers: [[https://apps.kde.org/dolphin/][KDE Dolphin]], emacs with [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html][dired]], [[https://midnight-commander.org/][mc]]
 - Keyboard: QPAD MK-50 with [[https://deskthority.net/wiki/Cherry_MX_Red][Cherry MX red]]
-- Browsers: [[https://brave.com/][Brave Browser]], [[https://www.mozilla.org/en-US/firefox/new/][firefox]], [[https://www.chromium.org/][chromium]], [[https://en.wikipedia.org/wiki/Eww_(web_browser)][eww]], [[https://www.seleniumhq.org/][selenium]]
+- Browsers: [[https://brave.com/][Brave Browser]], [[https://www.mozilla.org/en-US/firefox/new/][firefox]], [[https://github.com/ungoogled-software/ungoogled-chromium][ungoogled-chromium]], [[https://en.wikipedia.org/wiki/Eww_(web_browser)][eww]], [[https://www.seleniumhq.org/][selenium]]
 - Media player: [[https://audacious-media-player.org/][audacious]], [[https://www.videolan.org/index.html][vlc]]
 - Email client: emacs with [[https://notmuchmail.org/][notmuch]], [[https://www.thunderbird.net/en-GB/][thunderbird]]
 - IRC: [[https://www.emacswiki.org/emacs?ERC][ERC]] via emacs, [[https://www.pidgin.im/][pidgin]]
